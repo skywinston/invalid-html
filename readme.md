@@ -10,10 +10,6 @@ This app has invalid HTML in `index.html`. Use [w3's html validator](http://vali
 1. Adust HTML in `index.html`
 1. Repeat until all errors are gone.
 
-## Submit
-To submit, send a pull request to this repository.
-
 ## Server
-1. In the terminal, `cd` into the puck directory
-1. Run `python -m SimpleHTTPServer` to start a server
-1. Visit localhost:8000 to see the index page
+1. Run `http-server -c-1 -o` to start a server
+1. Visit http://localhost:8080 to see the index page
